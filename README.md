@@ -63,10 +63,9 @@ Now we need to update echo() function to return custom text.
 Rename echo() function to ask_bot() (make sure to change the name everywhere in the file):
 
     def ask_bot(update: Update, _: CallbackContext) -> None:
-    response = bot(update.message.text)
+        response = bot(update.message.text)
+        update.message.reply_text(response)
     
  bot() is a function that takes in the user's message; does something with it, and stores the result in **response** variable
-    
-    update.message.reply_text(response)
-    
+        
 Run the file. Your bot should reply with custom messages.👌🏼
