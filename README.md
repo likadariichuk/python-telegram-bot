@@ -1,5 +1,5 @@
 # python-telegram-bot
-(Echobot)[https://github.com/python-telegram-bot/python-telegram-bot/tree/master/examples]
+[Python telegram bot examples]([https://github.com/python-telegram-bot/python-telegram-bot/tree/master/examples)
 
 
 Start with the simple Echo bot to test the connection. 
