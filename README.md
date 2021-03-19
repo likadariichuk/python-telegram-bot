@@ -1,8 +1,11 @@
 # python-telegram-bot
+(Echobot)[https://github.com/python-telegram-bot/python-telegram-bot/tree/master/examples]
 
-https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/echobot.py
 
-Echo bot is a bot that replies with the message that it got on the entry.☠☠☠
+Start with the simple Echo bot to test the connection. 
+Echo bot replies with the same text that it receives from the client.
+
+Create telegram-bot.py file:
 
     from telegram import Update
     from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
