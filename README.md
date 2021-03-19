@@ -28,7 +28,7 @@ Create telegram-bot.py file:
 
     def main() -> None:
         """Start the bot."""
-        updater = Updater("1773606014:AAFFffgjGc6aS9bHvN18VlJsqyCQjaY2pSE")
+        updater = Updater("Token")
 
         dispatcher = updater.dispatcher
 
@@ -53,7 +53,7 @@ Place your Token in the main() function:
 
     def main() -> None:
       """Start the bot."""
-      updater = Updater("1773606014:AAFFffgjGc6aS9bHvN18VlJsqyCQjaY2pSE")
+      updater = Updater("Token")
       
 Run the file. Your bot should work and echo what you text.
 
